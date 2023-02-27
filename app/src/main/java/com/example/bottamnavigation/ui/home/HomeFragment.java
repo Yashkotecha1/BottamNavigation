@@ -35,8 +35,8 @@ private FragmentHomeBinding binding;
 
     public Fragment newInstance()
     {
-        HomeFragment homeFragment = new HomeFragment();
+        HomeFragment fragment = new HomeFragment();
 
-        return homeFragment;
+        return fragment;
     }
 }
